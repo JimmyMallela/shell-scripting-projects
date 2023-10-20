@@ -18,7 +18,7 @@ function github_api_get {
 
     # Send a GET request to the GitHub API with authentication
     curl -s -u "${USERNAME}:${TOKEN}" "$url"
-}
+
 
 # Function to list users with read access to the repository
 function list_users_with_read_access {
